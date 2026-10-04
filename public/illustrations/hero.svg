@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" width="480" height="340" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="480" height="340" rx="28" fill="#e6f4ea"/>
+  <circle cx="400" cy="70" r="36" fill="#fbbc04" opacity="0.35"/>
+  <!-- blueprint sheet -->
+  <g transform="translate(36 52) rotate(-4)">
+    <rect width="230" height="170" rx="10" fill="#1a73e8"/>
+    <g stroke="#ffffff" stroke-width="2.4" fill="none" opacity="0.95">
+      <rect x="22" y="22" width="186" height="126"/>
+      <line x1="110" y1="22" x2="110" y2="148"/>
+      <line x1="22" y1="86" x2="110" y2="86"/>
+      <line x1="110" y1="70" x2="208" y2="70"/>
+      <line x1="160" y1="70" x2="160" y2="148"/>
+    </g>
+    <g fill="#ffffff" font-size="9" opacity="0.9">
+      <text x="44" y="58">LIVING</text><text x="40" y="122">DINING</text>
+      <text x="138" y="50">KITCHEN</text><text x="120" y="114">BED 1</text><text x="170" y="114">BED 2</text>
+    </g>
+    <g stroke="#ffffff" stroke-width="1.2" opacity="0.6"><line x1="22" y1="12" x2="208" y2="12"/></g>
+  </g>
+  <!-- scan line -->
+  <rect x="40" y="128" width="236" height="6" rx="3" fill="#34a853" opacity="0.8"/>
+  <!-- list card -->
+  <g transform="translate(250 112)">
+    <rect width="196" height="196" rx="18" fill="#ffffff" stroke="#dadce0"/>
+    <text x="18" y="32" font-size="14" font-weight="700" fill="#202124">Materials</text>
+    <g font-size="11" fill="#3c4043">
+      <rect x="18" y="48" width="26" height="26" rx="7" fill="#e8eaed"/><text x="54" y="60">Cement</text><text x="54" y="72" fill="#5f6368">380 bags</text>
+      <rect x="18" y="86" width="26" height="26" rx="7" fill="#fce8e6"/><text x="54" y="98">9 inch blocks</text><text x="54" y="110" fill="#5f6368">1,450 pieces</text>
+      <rect x="18" y="124" width="26" height="26" rx="7" fill="#e8f0fe"/><text x="54" y="136">Iron rods 12mm</text><text x="54" y="148" fill="#5f6368">42 lengths</text>
+    </g>
+    <rect x="18" y="160" width="160" height="24" rx="12" fill="#01875f"/>
+    <text x="98" y="176" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Call vendor</text>
+  </g>
+  <!-- cement bag -->
+  <g transform="translate(70 238)">
+    <path d="M0 10 Q4 0 14 2 L70 2 Q80 0 84 10 L84 74 Q80 84 70 82 L14 82 Q4 84 0 74 Z" fill="#9aa0a6"/>
+    <rect x="12" y="24" width="60" height="30" rx="4" fill="#ffffff"/>
+    <text x="42" y="44" font-size="12" font-weight="700" fill="#202124" text-anchor="middle">50kg</text>
+  </g>
+  <!-- blocks -->
+  <g transform="translate(168 268)" fill="#c5a880" stroke="#8d6e63" stroke-width="1.5">
+    <rect x="0" y="22" width="44" height="22" rx="2"/><rect x="46" y="22" width="44" height="22" rx="2"/><rect x="22" y="0" width="44" height="22" rx="2"/>
+  </g>
+</svg>
