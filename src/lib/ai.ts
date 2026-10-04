@@ -43,10 +43,12 @@ export async function callExtractionModel(input: AiInput): Promise<{ result: unk
       model,
       temperature: 0,
       max_tokens: 12000,
+      // Low reasoning keeps a new upload near 30 seconds without hurting the take-off.
+      reasoning: { effort: process.env.OPENROUTER_REASONING || "low" },
       messages: [{ role: "user", content: [{ type: "text", text: buildPrompt(input.city) }, filePart] }],
       response_format: { type: "json_schema", json_schema: extractionJsonSchema },
     }),
-    signal: AbortSignal.timeout(170_000),
+    signal: AbortSignal.timeout(240_000),
   });
   if (!res.ok) {
     const body = await res.text().catch(() => "");

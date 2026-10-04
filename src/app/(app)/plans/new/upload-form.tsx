@@ -15,7 +15,7 @@ function Pending() {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src="/illustrations/reading.svg" alt="" width={160} height={112} />
       <h3>Reading your plan</h3>
-      <p className="muted small">The AI is measuring walls, openings and finishes. New files take about 30 seconds.</p>
+      <p className="muted small">The AI is measuring walls, openings and finishes. New files take about 20 seconds.</p>
       <div className="progress-bar"><span /></div>
     </div>
   );
