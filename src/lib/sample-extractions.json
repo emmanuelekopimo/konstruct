@@ -1,0 +1,1754 @@
+{
+ "bungalow-2bed-ikorodu": {
+  "hash": "b75c669e4a13e179c1f67eca6aa6aa78ce07b43a18785d351faac87222d15ca7",
+  "model": "google/gemini-3.8-flash",
+  "result": {
+   "is_building_plan": true,
+   "title": "Two Bedroom Bungalow at Agric Road, Ikorodu",
+   "building_type": "bungalow",
+   "floors": 1,
+   "bedrooms": 2,
+   "floor_area_m2": 95.76,
+   "summary": "Bill of quantities and material take-off for a standard 2-bedroom bungalow (11.4m x 8.4m) located in Ikorodu, Lagos State, including substructure, superstructure, roof, finishes, doors/windows, and basic M&E services.",
+   "items": [
+    {
+     "code": "LATERITE",
+     "description": "Laterite filling",
+     "quantity": 68,
+     "unit": "tonne",
+     "confidence": "high",
+     "basis": "Building footprint 95.76m2 x 0.45m depth with 1.6 t/m3 compaction"
+    },
+    {
+     "code": "DPM-ROLL",
+     "description": "Damp proof membrane, 1000 gauge roll",
+     "quantity": 3,
+     "unit": "roll",
+     "confidence": "high",
+     "basis": "Floor area 95.8m2 plus overlaps divided by roll coverage"
+    },
+    {
+     "code": "BLOCK-9",
+     "description": "Sandcrete block, 9 inch (225mm) hollow",
+     "quantity": 1450,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "4 foundation courses plus 3m external walls minus openings plus 5% waste"
+    },
+    {
+     "code": "BLOCK-6",
+     "description": "Sandcrete block, 6 inch (150mm) hollow",
+     "quantity": 820,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "30.6m internal partition walls at 3m height minus doors plus 5% waste"
+    },
+    {
+     "code": "CEM-50",
+     "description": "Portland cement, 50kg bag",
+     "quantity": 380,
+     "unit": "bag",
+     "confidence": "high",
+     "basis": "Foundation footing, filling, slab, columns, lintels, block mortar, and plaster render"
+    },
+    {
+     "code": "SAND-SHARP",
+     "description": "Sharp sand",
+     "quantity": 42,
+     "unit": "tonne",
+     "confidence": "high",
+     "basis": "Concrete in strip footing, oversite slab, columns, lintels, and blockwork mortar"
+    },
+    {
+     "code": "GRANITE-34",
+     "description": "Granite chippings, 3/4 inch",
+     "quantity": 46,
+     "unit": "tonne",
+     "confidence": "high",
+     "basis": "1:3:6 strip foundation concrete and 1:2:4 oversite slab, lintels, columns"
+    },
+    {
+     "code": "SAND-PLASTER",
+     "description": "Plaster (soft) sand",
+     "quantity": 24,
+     "unit": "tonne",
+     "confidence": "high",
+     "basis": "Internal and external 15mm wall rendering 1:4 mix"
+    },
+    {
+     "code": "ROD-12",
+     "description": "Iron rod, 12mm x 12m length",
+     "quantity": 42,
+     "unit": "length",
+     "confidence": "high",
+     "basis": "4 bars each in 12 columns and continuous perimeter/internal lintels"
+    },
+    {
+     "code": "ROD-10",
+     "description": "Iron rod, 10mm x 12m length",
+     "quantity": 36,
+     "unit": "length",
+     "confidence": "high",
+     "basis": "Stirrups/links at 200mm centres for columns and lintels"
+    },
+    {
+     "code": "BINDING-WIRE",
+     "description": "Binding wire, 20kg roll",
+     "quantity": 2,
+     "unit": "roll",
+     "confidence": "high",
+     "basis": "Tying reinforcement bars for columns and lintel beams"
+    },
+    {
+     "code": "PLANK-1X12",
+     "description": "Formwork plank 1x12 inch, 12ft",
+     "quantity": 65,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Formwork for isolated columns, lintel sides/soffits, and slab edges"
+    },
+    {
+     "code": "TIMBER-2X6",
+     "description": "Hardwood 2x6 inch, 12ft",
+     "quantity": 24,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Wall plate running continuously on all external and spine loadbearing walls"
+    },
+    {
+     "code": "TIMBER-2X4",
+     "description": "Hardwood 2x4 inch, 12ft",
+     "quantity": 140,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Hipped roof rafters at 600mm centres, tie beams, purlins, and struts"
+    },
+    {
+     "code": "NAILS",
+     "description": "Nails, assorted sizes",
+     "quantity": 35,
+     "unit": "kg",
+     "confidence": "medium",
+     "basis": "Formwork and timber roof truss assembly"
+    },
+    {
+     "code": "ROOF-ALU",
+     "description": "Long-span aluminium roofing sheet, 0.55mm",
+     "quantity": 145,
+     "unit": "m2",
+     "confidence": "high",
+     "basis": "Building plan area with 600mm eaves overhang and hipped roof slope factor"
+    },
+    {
+     "code": "ROOF-NAILS",
+     "description": "Roofing nails",
+     "quantity": 15,
+     "unit": "kg",
+     "confidence": "medium",
+     "basis": "Fixing 145m2 aluminium roofing sheets with washers"
+    },
+    {
+     "code": "DOOR-SECURITY",
+     "description": "Steel security door, external",
+     "quantity": 2,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "From door schedule: D1 external doors, size 1.2 x 2.1m"
+    },
+    {
+     "code": "DOOR-PANEL",
+     "description": "Hardwood panel door with frame, internal",
+     "quantity": 4,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "From door schedule: D2 internal doors, size 0.9 x 2.1m"
+    },
+    {
+     "code": "WINDOW-ALU",
+     "description": "Aluminium sliding window, 1.2 x 1.2m",
+     "quantity": 7,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "From window schedule: W1 aluminium sliding windows"
+    },
+    {
+     "code": "OTHER",
+     "description": "Louvre window 0.6 x 0.6m",
+     "quantity": 1,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "From window schedule: W2 bathroom window"
+    },
+    {
+     "code": "TILE-FLOOR",
+     "description": "Porcelain floor tiles, 60 x 60cm",
+     "quantity": 90,
+     "unit": "m2",
+     "confidence": "high",
+     "basis": "Net internal floor area across all rooms plus 5% cutting waste"
+    },
+    {
+     "code": "TILE-WALL",
+     "description": "Ceramic wall tiles, 30 x 60cm",
+     "quantity": 45,
+     "unit": "m2",
+     "confidence": "high",
+     "basis": "Bath (17.3m2) and kitchen splash/perimeter walls to 1.8m height plus waste"
+    },
+    {
+     "code": "TILE-ADHESIVE",
+     "description": "Tile adhesive, 20kg bag",
+     "quantity": 30,
+     "unit": "bag",
+     "confidence": "high",
+     "basis": "Total floor and wall tile area approx 135m2 at 4.5m2 per bag"
+    },
+    {
+     "code": "CEILING-PVC",
+     "description": "PVC ceiling panels",
+     "quantity": 90,
+     "unit": "m2",
+     "confidence": "high",
+     "basis": "Net internal ceiling area throughout all rooms plus 5% waste"
+    },
+    {
+     "code": "PAINT-EMULSION",
+     "description": "Emulsion paint, 20L bucket",
+     "quantity": 6,
+     "unit": "bucket",
+     "confidence": "high",
+     "basis": "Internal walls and corridor walls approx 240m2 for two coats"
+    },
+    {
+     "code": "PAINT-TEXCOTE",
+     "description": "Textured exterior paint, 20L bucket",
+     "quantity": 4,
+     "unit": "bucket",
+     "confidence": "high",
+     "basis": "External wall rendered area approx 110m2 for two coats"
+    },
+    {
+     "code": "WC-SET",
+     "description": "Water closet (WC) set, complete",
+     "quantity": 1,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "From note 7: 1 WC"
+    },
+    {
+     "code": "BASIN",
+     "description": "Wash hand basin with pedestal",
+     "quantity": 1,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "From note 7: 1 wash basin"
+    },
+    {
+     "code": "SHOWER",
+     "description": "Shower mixer set",
+     "quantity": 1,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "From note 7: 1 shower"
+    },
+    {
+     "code": "SINK",
+     "description": "Kitchen sink, stainless steel",
+     "quantity": 1,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "From note 7: 1 kitchen sink"
+    },
+    {
+     "code": "TANK-2000",
+     "description": "Plastic water tank, 2000 litres",
+     "quantity": 1,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "From note 7: 2000L overhead water tank"
+    },
+    {
+     "code": "PIPE-PVC-4",
+     "description": "PVC soil pipe, 4 inch x 5.8m",
+     "quantity": 4,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Soil stack and drainage run from bath/WC to external inspection chamber"
+    },
+    {
+     "code": "PIPE-PPR-20",
+     "description": "PPR water pipe, 20mm x 4m",
+     "quantity": 10,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Internal cold/hot water distribution to bathroom and kitchen points"
+    },
+    {
+     "code": "LIGHT-LED",
+     "description": "LED ceiling light fitting",
+     "quantity": 14,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "From note 7: 14 light points"
+    },
+    {
+     "code": "SWITCH",
+     "description": "1-gang light switch",
+     "quantity": 10,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Lighting control switches for rooms, corridor, store, and entrance"
+    },
+    {
+     "code": "SOCKET-13A",
+     "description": "13A double switched socket",
+     "quantity": 12,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "From note 7: 12 double sockets"
+    },
+    {
+     "code": "CONDUIT-20",
+     "description": "PVC conduit pipe, 20mm x 3m",
+     "quantity": 45,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Concealed electrical conduit runs for 14 lights and 12 sockets"
+    },
+    {
+     "code": "CABLE-1.5",
+     "description": "Single core cable 1.5mm, 100m roll",
+     "quantity": 3,
+     "unit": "roll",
+     "confidence": "medium",
+     "basis": "Wiring for 14 lighting points including live, neutral, and earth"
+    },
+    {
+     "code": "CABLE-2.5",
+     "description": "Single core cable 2.5mm, 100m roll",
+     "quantity": 4,
+     "unit": "roll",
+     "confidence": "medium",
+     "basis": "Wiring for 12 socket ring and radial circuits"
+    },
+    {
+     "code": "DB-BOARD",
+     "description": "Distribution board, 8-way",
+     "quantity": 1,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "From note 7: 1 distribution board"
+    }
+   ],
+   "assumptions": [
+    "Ground condition is firm, normal soil at 900mm depth as indicated in structural notes.",
+    "Strip footing concrete mix is 1:3:6 unreinforced; lintels, columns, and 150mm oversite concrete are 1:2:4 mix.",
+    "External walls are 225mm (9-inch) sandcrete hollow blocks; internal partition walls are 150mm (6-inch).",
+    "Mortar mix for block laying is 1:6 cement-sand.",
+    "Wall plastering is 15mm thick 1:4 cement-sand render applied to both internal and external faces.",
+    "Timber trusses are composed of treated local hardwood spaced at 600mm centres.",
+    "Quantities incorporate approximately 5% standard Nigerian construction wastage allowances.",
+    "Plumbing external connection terminates at nearest inspection chamber / soakaway pit boundary."
+   ]
+  }
+ },
+ "bungalow-3bed-lugbe": {
+  "hash": "6b381e40b32b0418616e146b5047641efd0b7ae1454106531aceee479a4aaece",
+  "model": "google/gemini-3.8-flash",
+  "result": {
+   "is_building_plan": true,
+   "title": "Three Bedroom Bungalow",
+   "building_type": "bungalow",
+   "floors": 1,
+   "bedrooms": 3,
+   "floor_area_m2": 162,
+   "summary": "Bill of quantities material take-off for a three-bedroom bungalow with gross floor area of 162 m2 situated in Lugbe, Abuja.",
+   "items": [
+    {
+     "code": "CEM-50",
+     "description": "Portland cement, 50kg bag",
+     "quantity": 590,
+     "unit": "bag",
+     "confidence": "high",
+     "basis": "Calculated for strip footing, block filling, slab, columns, lintels, mortar and plaster."
+    },
+    {
+     "code": "SAND-SHARP",
+     "description": "Sharp sand",
+     "quantity": 62,
+     "unit": "tonne",
+     "confidence": "high",
+     "basis": "Estimated for 1:3:6 and 1:2:4 concretes plus block-laying mortar."
+    },
+    {
+     "code": "SAND-PLASTER",
+     "description": "Plaster (soft) sand",
+     "quantity": 14,
+     "unit": "tonne",
+     "confidence": "high",
+     "basis": "Estimated for internal and external wall rendering and screeding."
+    },
+    {
+     "code": "GRANITE-34",
+     "description": "Granite chippings, 3/4 inch",
+     "quantity": 70,
+     "unit": "tonne",
+     "confidence": "high",
+     "basis": "Calculated for footing concrete, oversite slab, columns and lintels."
+    },
+    {
+     "code": "LATERITE",
+     "description": "Laterite filling",
+     "quantity": 165,
+     "unit": "tonne",
+     "confidence": "high",
+     "basis": "Compacted filling 600mm average depth across internal floor footprint."
+    },
+    {
+     "code": "DPM-ROLL",
+     "description": "Damp proof membrane, 1000 gauge roll",
+     "quantity": 2,
+     "unit": "roll",
+     "confidence": "high",
+     "basis": "Sufficient to cover 162 m2 slab footprint including laps."
+    },
+    {
+     "code": "BLOCK-9",
+     "description": "Sandcrete block, 9 inch (225mm) hollow",
+     "quantity": 2650,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "5 courses below DPC plus external wall superstructure minus openings."
+    },
+    {
+     "code": "BLOCK-6",
+     "description": "Sandcrete block, 6 inch (150mm) hollow",
+     "quantity": 1950,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Internal partition walls 3.0m high minus door openings."
+    },
+    {
+     "code": "ROD-12",
+     "description": "Iron rod, 12mm x 12m length",
+     "quantity": 68,
+     "unit": "length",
+     "confidence": "high",
+     "basis": "Main bars for 18 columns and continuous lintels all round."
+    },
+    {
+     "code": "ROD-10",
+     "description": "Iron rod, 10mm x 12m length",
+     "quantity": 68,
+     "unit": "length",
+     "confidence": "high",
+     "basis": "Stirrups and column links spaced at 200mm centers."
+    },
+    {
+     "code": "BINDING-WIRE",
+     "description": "Binding wire, 20kg roll",
+     "quantity": 3,
+     "unit": "roll",
+     "confidence": "medium",
+     "basis": "Tying column starters, links, lintels and mesh overlaps."
+    },
+    {
+     "code": "PLANK-1X12",
+     "description": "Formwork plank 1x12 inch, 12ft",
+     "quantity": 76,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Formwork for columns, lintels, slab edge plus fascia board."
+    },
+    {
+     "code": "TIMBER-2X6",
+     "description": "Hardwood 2x6 inch, 12ft",
+     "quantity": 92,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Roof wall plates and roof purlins spaced at 900mm."
+    },
+    {
+     "code": "TIMBER-2X4",
+     "description": "Hardwood 2x4 inch, 12ft",
+     "quantity": 160,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Truss rafters, tie beams, king posts and struts."
+    },
+    {
+     "code": "NAILS",
+     "description": "Nails, assorted sizes",
+     "quantity": 50,
+     "unit": "kg",
+     "confidence": "medium",
+     "basis": "Formwork carpentry, bracing and roof truss assembly."
+    },
+    {
+     "code": "ROOF-ALU",
+     "description": "Long-span aluminium roofing sheet, 0.55mm",
+     "quantity": 235,
+     "unit": "m2",
+     "confidence": "high",
+     "basis": "Hipped roof area with 600mm eaves overhang and slope allowance."
+    },
+    {
+     "code": "ROOF-NAILS",
+     "description": "Roofing nails",
+     "quantity": 25,
+     "unit": "kg",
+     "confidence": "medium",
+     "basis": "Aluminium roofing drive screws and washers for sheet fixing."
+    },
+    {
+     "code": "DOOR-SECURITY",
+     "description": "Steel security door, external",
+     "quantity": 2,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Schedule D1, size 1.2 x 2.1m, external doors."
+    },
+    {
+     "code": "DOOR-PANEL",
+     "description": "Hardwood panel door with frame, internal",
+     "quantity": 9,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Schedule D2, size 0.9 x 2.1m, internal rooms."
+    },
+    {
+     "code": "WINDOW-ALU",
+     "description": "Aluminium sliding window, 1.2 x 1.2m",
+     "quantity": 12,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Schedule W1, size 1.2 x 1.2m sliding windows."
+    },
+    {
+     "code": "OTHER",
+     "description": "Louvre window 0.6 x 0.6m",
+     "quantity": 4,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Schedule W2, size 0.6 x 0.6m toilet louvres."
+    },
+    {
+     "code": "TILE-FLOOR",
+     "description": "Porcelain floor tiles, 60 x 60cm",
+     "quantity": 152,
+     "unit": "m2",
+     "confidence": "high",
+     "basis": "Internal floor area plus 5 percent cutting waste."
+    },
+    {
+     "code": "TILE-WALL",
+     "description": "Ceramic wall tiles, 30 x 60cm",
+     "quantity": 83,
+     "unit": "m2",
+     "confidence": "high",
+     "basis": "Bathrooms full height 2.4m and kitchen splashback 1.2m."
+    },
+    {
+     "code": "TILE-ADHESIVE",
+     "description": "Tile adhesive, 20kg bag",
+     "quantity": 59,
+     "unit": "bag",
+     "confidence": "high",
+     "basis": "Floor and wall tiling coverage at 4 m2 per bag."
+    },
+    {
+     "code": "CEILING-PVC",
+     "description": "PVC ceiling panels",
+     "quantity": 152,
+     "unit": "m2",
+     "confidence": "high",
+     "basis": "PVC ceiling installed to all rooms per note 6."
+    },
+    {
+     "code": "PAINT-EMULSION",
+     "description": "Emulsion paint, 20L bucket",
+     "quantity": 10,
+     "unit": "bucket",
+     "confidence": "medium",
+     "basis": "Two coats internal wall and ceiling rendering."
+    },
+    {
+     "code": "PAINT-TEXCOTE",
+     "description": "Textured exterior paint, 20L bucket",
+     "quantity": 4,
+     "unit": "bucket",
+     "confidence": "medium",
+     "basis": "Exterior external perimeter wall finish."
+    },
+    {
+     "code": "PAINT-GLOSS",
+     "description": "Gloss paint, 4L tin",
+     "quantity": 2,
+     "unit": "tin",
+     "confidence": "medium",
+     "basis": "Painting hardwood internal door panels and frames."
+    },
+    {
+     "code": "WC-SET",
+     "description": "Water closet (WC) set, complete",
+     "quantity": 3,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Specified in services note 7."
+    },
+    {
+     "code": "BASIN",
+     "description": "Wash hand basin with pedestal",
+     "quantity": 3,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Specified in services note 7."
+    },
+    {
+     "code": "SHOWER",
+     "description": "Shower mixer set",
+     "quantity": 2,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Specified in services note 7."
+    },
+    {
+     "code": "SINK",
+     "description": "Kitchen sink, stainless steel",
+     "quantity": 1,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Specified in services note 7."
+    },
+    {
+     "code": "TANK-2000",
+     "description": "Plastic water tank, 2000 litres",
+     "quantity": 2,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Specified in services note 7."
+    },
+    {
+     "code": "PIPE-PVC-4",
+     "description": "PVC soil pipe, 4 inch x 5.8m",
+     "quantity": 12,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Soil stacks and underground sewer drainage connections."
+    },
+    {
+     "code": "PIPE-PPR-20",
+     "description": "PPR water pipe, 20mm x 4m",
+     "quantity": 18,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Internal cold and hot water reticulation network."
+    },
+    {
+     "code": "LIGHT-LED",
+     "description": "LED ceiling light fitting",
+     "quantity": 24,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "24 light points specified in services note 7."
+    },
+    {
+     "code": "SOCKET-13A",
+     "description": "13A double switched socket",
+     "quantity": 22,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "22 double sockets specified in services note 7."
+    },
+    {
+     "code": "SWITCH",
+     "description": "1-gang light switch",
+     "quantity": 16,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Control switches for 24 light fittings."
+    },
+    {
+     "code": "DB-BOARD",
+     "description": "Distribution board, 8-way",
+     "quantity": 1,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Specified in services note 7."
+    },
+    {
+     "code": "CABLE-1.5",
+     "description": "Single core cable 1.5mm, 100m roll",
+     "quantity": 3,
+     "unit": "roll",
+     "confidence": "medium",
+     "basis": "Wiring for 24 lighting points."
+    },
+    {
+     "code": "CABLE-2.5",
+     "description": "Single core cable 2.5mm, 100m roll",
+     "quantity": 4,
+     "unit": "roll",
+     "confidence": "medium",
+     "basis": "Radial and ring wiring for 22 socket outlets."
+    },
+    {
+     "code": "CONDUIT-20",
+     "description": "PVC conduit pipe, 20mm x 3m",
+     "quantity": 45,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Embedded piping for electrical drops and circuits."
+    }
+   ],
+   "assumptions": [
+    "Ground conditions are standard firm dry soil in Lugbe requiring 1.0m foundation depth.",
+    "Waste allowance of 5 percent included on measurable bulk materials.",
+    "All timber calculated as treated semi-hardwood sawn lengths.",
+    "Ceiling finish across all rooms is PVC ceiling panels per specification."
+   ]
+  }
+ },
+ "duplex-4bed-lekki": {
+  "hash": "3d1301e04be6405ba545708e755582c790be48b47e13ed7eabc21768ba9a0f0e",
+  "model": "google/gemini-3.8-flash",
+  "result": {
+   "is_building_plan": true,
+   "title": "Four Bedroom Duplex at Plot 31 Ocean View Estate Lekki Phase 2 Lagos",
+   "building_type": "duplex",
+   "floors": 2,
+   "bedrooms": 4,
+   "floor_area_m2": 328.3,
+   "summary": "Material take-off for a 4-bedroom duplex (14.4m x 11.4m footprint across two floors) including substructure, frame, masonry, roof, finishes, openings, and building services based on drawing specifications and standard Nigerian QS practices.",
+   "items": [
+    {
+     "code": "LATERITE",
+     "description": "Laterite filling",
+     "quantity": 175,
+     "unit": "tonne",
+     "confidence": "high",
+     "basis": "164.2 m2 footprint x 0.6m depth compacted laterite plus 5% waste"
+    },
+    {
+     "code": "DPM-ROLL",
+     "description": "Damp proof membrane, 1000 gauge roll",
+     "quantity": 4,
+     "unit": "roll",
+     "confidence": "high",
+     "basis": "164.2 m2 floor footprint with laps divided by 50m2 per roll"
+    },
+    {
+     "code": "BLOCK-9",
+     "description": "Sandcrete block, 9 inch (225mm) hollow",
+     "quantity": 3850,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Foundation trench walling (5 courses) and external walls 2 floors less openings"
+    },
+    {
+     "code": "BLOCK-6",
+     "description": "Sandcrete block, 6 inch (150mm) hollow",
+     "quantity": 2350,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Internal partition walls across ground and first floor less door openings"
+    },
+    {
+     "code": "CEM-50",
+     "description": "Portland cement, 50kg bag",
+     "quantity": 1150,
+     "unit": "bag",
+     "confidence": "medium",
+     "basis": "Calculated from concrete in footing, slab, frame, block mortar and plaster"
+    },
+    {
+     "code": "SAND-SHARP",
+     "description": "Sharp sand",
+     "quantity": 125,
+     "unit": "tonne",
+     "confidence": "medium",
+     "basis": "Concrete mixes for strip foundation, ground slab, first floor slab, columns, beams"
+    },
+    {
+     "code": "GRANITE-34",
+     "description": "Granite chippings, 3/4 inch",
+     "quantity": 185,
+     "unit": "tonne",
+     "confidence": "medium",
+     "basis": "Aggregate required for 1:2:4 and 1:3:6 structural concrete elements"
+    },
+    {
+     "code": "SAND-PLASTER",
+     "description": "Plaster (soft) sand",
+     "quantity": 65,
+     "unit": "tonne",
+     "confidence": "medium",
+     "basis": "Internal and external rendering and screeding surfaces plus 5% waste"
+    },
+    {
+     "code": "ROD-16",
+     "description": "Iron rod, 16mm x 12m length",
+     "quantity": 145,
+     "unit": "length",
+     "confidence": "high",
+     "basis": "22 columns 2 floors (4 no. 16mm) and ground/first/roof beams (4 no. 16mm)"
+    },
+    {
+     "code": "ROD-12",
+     "description": "Iron rod, 12mm x 12m length",
+     "quantity": 360,
+     "unit": "length",
+     "confidence": "high",
+     "basis": "Strip footing reinforcement, suspended first floor slab mesh at 150mm c/c, stairs"
+    },
+    {
+     "code": "ROD-10",
+     "description": "Iron rod, 10mm x 12m length",
+     "quantity": 185,
+     "unit": "length",
+     "confidence": "high",
+     "basis": "Column stirrups at 150mm c/c and beam stirrups at 200mm c/c"
+    },
+    {
+     "code": "BINDING-WIRE",
+     "description": "Binding wire, 20kg roll",
+     "quantity": 6,
+     "unit": "roll",
+     "confidence": "medium",
+     "basis": "Standard ratio of approx 15kg wire per tonne of reinforcement"
+    },
+    {
+     "code": "PLANK-1X12",
+     "description": "Formwork plank 1x12 inch, 12ft",
+     "quantity": 320,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Soffit boarding for 164m2 suspended slab, beams, and column forms"
+    },
+    {
+     "code": "TIMBER-2X4",
+     "description": "Hardwood 2x4 inch, 12ft",
+     "quantity": 420,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Slab propping, roof battens, ceiling noggins, and formwork bracing"
+    },
+    {
+     "code": "TIMBER-2X6",
+     "description": "Hardwood 2x6 inch, 12ft",
+     "quantity": 190,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Roof rafters at 600mm centres, tie beams, and struts"
+    },
+    {
+     "code": "NAILS",
+     "description": "Nails, assorted sizes",
+     "quantity": 80,
+     "unit": "kg",
+     "confidence": "medium",
+     "basis": "Carpentry for formwork, propping, and roof carcass installation"
+    },
+    {
+     "code": "ROOF-STONE",
+     "description": "Stone-coated roofing tile sheet",
+     "quantity": 520,
+     "unit": "sheet",
+     "confidence": "medium",
+     "basis": "Approx 215 m2 pitched roof surface area with overlaps plus 5% waste"
+    },
+    {
+     "code": "ROOF-NAILS",
+     "description": "Roofing nails",
+     "quantity": 25,
+     "unit": "kg",
+     "confidence": "high",
+     "basis": "Fixing stone coated roofing tiles to timber battens"
+    },
+    {
+     "code": "DOOR-SECURITY",
+     "description": "Steel security door, external",
+     "quantity": 2,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Door schedule: 1 main entrance (1.5x2.4m) and 1 kitchen exit (1.0x2.1m)"
+    },
+    {
+     "code": "DOOR-PANEL",
+     "description": "Hardwood panel door with frame, internal",
+     "quantity": 14,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Door schedule: 14 internal hardwood panel doors (0.9 x 2.1m)"
+    },
+    {
+     "code": "WINDOW-ALU",
+     "description": "Aluminium sliding window, 1.2 x 1.2m",
+     "quantity": 22,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Window schedule: 22 units of W1 (1.2 x 1.2m)"
+    },
+    {
+     "code": "OTHER",
+     "description": "Aluminium louvre window, 0.6 x 0.6m",
+     "quantity": 6,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Window schedule: 6 units of W2 (0.6 x 0.6m) for bathrooms/store"
+    },
+    {
+     "code": "TILE-FLOOR",
+     "description": "Porcelain floor tiles, 60 x 60cm",
+     "quantity": 345,
+     "unit": "m2",
+     "confidence": "high",
+     "basis": "Total floor area 328.3 m2 plus 5% cutting waste"
+    },
+    {
+     "code": "TILE-WALL",
+     "description": "Ceramic wall tiles, 30 x 60cm",
+     "quantity": 165,
+     "unit": "m2",
+     "confidence": "medium",
+     "basis": "Walls in 5 baths and kitchen tiled to 2.4m height plus waste"
+    },
+    {
+     "code": "TILE-ADHESIVE",
+     "description": "Tile adhesive, 20kg bag",
+     "quantity": 130,
+     "unit": "bag",
+     "confidence": "medium",
+     "basis": "Coverage of approx 4 m2 per 20kg bag for 510 m2 total tiles"
+    },
+    {
+     "code": "POP-40",
+     "description": "Plaster of Paris (POP), 40kg bag",
+     "quantity": 140,
+     "unit": "bag",
+     "confidence": "medium",
+     "basis": "POP ceiling installation throughout ground and first floors (328 m2)"
+    },
+    {
+     "code": "PAINT-EMULSION",
+     "description": "Emulsion paint, 20L bucket",
+     "quantity": 28,
+     "unit": "bucket",
+     "confidence": "medium",
+     "basis": "Internal wall plaster and ceiling coating in 2 coats"
+    },
+    {
+     "code": "PAINT-TEXCOTE",
+     "description": "Textured exterior paint, 20L bucket",
+     "quantity": 15,
+     "unit": "bucket",
+     "confidence": "medium",
+     "basis": "External wall surface area of approx 310 m2 in 2 coats"
+    },
+    {
+     "code": "WC-SET",
+     "description": "Water closet (WC) set, complete",
+     "quantity": 5,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "General notes item 8: 5 WC sets"
+    },
+    {
+     "code": "BASIN",
+     "description": "Wash hand basin with pedestal",
+     "quantity": 5,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "General notes item 8: 5 basins"
+    },
+    {
+     "code": "SHOWER",
+     "description": "Shower mixer set",
+     "quantity": 4,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "General notes item 8: 4 showers"
+    },
+    {
+     "code": "SINK",
+     "description": "Kitchen sink, stainless steel",
+     "quantity": 1,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "General notes item 8: 1 kitchen sink"
+    },
+    {
+     "code": "TANK-2000",
+     "description": "Plastic water tank, 2000 litres",
+     "quantity": 2,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "General notes item 8: 2 no. 2000L tanks"
+    },
+    {
+     "code": "PIPE-PVC-4",
+     "description": "PVC soil pipe, 4 inch x 5.8m",
+     "quantity": 24,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Soil stacks, toilet connections, and external drain run to septic tank"
+    },
+    {
+     "code": "PIPE-PPR-20",
+     "description": "PPR water pipe, 20mm x 4m",
+     "quantity": 40,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Internal cold and hot water reticulation to 5 baths and kitchen"
+    },
+    {
+     "code": "LIGHT-LED",
+     "description": "LED ceiling light fitting",
+     "quantity": 48,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "General notes item 8: 48 light points"
+    },
+    {
+     "code": "SWITCH",
+     "description": "1-gang light switch",
+     "quantity": 30,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Controlling 48 light points across rooms, circulation, and exterior"
+    },
+    {
+     "code": "SOCKET-13A",
+     "description": "13A double switched socket",
+     "quantity": 40,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "General notes item 8: 40 double sockets"
+    },
+    {
+     "code": "DB-BOARD",
+     "description": "Distribution board, 8-way",
+     "quantity": 2,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "General notes item 8: 2 distribution boards (1 per floor)"
+    },
+    {
+     "code": "CABLE-1.5",
+     "description": "Single core cable 1.5mm, 100m roll",
+     "quantity": 10,
+     "unit": "roll",
+     "confidence": "medium",
+     "basis": "Lighting circuits wiring for 48 light points across 2 floors"
+    },
+    {
+     "code": "CABLE-2.5",
+     "description": "Single core cable 2.5mm, 100m roll",
+     "quantity": 14,
+     "unit": "roll",
+     "confidence": "medium",
+     "basis": "Ring and radial socket circuits for 40 socket outlets"
+    },
+    {
+     "code": "CONDUIT-20",
+     "description": "PVC conduit pipe, 20mm x 3m",
+     "quantity": 120,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Electrical piping concealed in slab casting and block walls"
+    }
+   ],
+   "assumptions": [
+    "Building footprint is rectangular at 14.40m x 11.40m giving 164.16m2 per floor and 328.32m2 total floor area.",
+    "Foundation is reinforced strip footing at 1.2m depth with 5 courses of 9 inch sandcrete blocks filled solid with concrete below DPC.",
+    "First floor is a 150mm thick suspended reinforced concrete slab over the full footprint.",
+    "Roof structure is timber truss pitch roof covered with stone-coated roofing tiles, pitch assumed at 30 degrees.",
+    "Standard Nigerian building construction practices adopted in Lekki, Lagos State, with 5 percent wastage allowance included across materials."
+   ]
+  }
+ },
+ "flats-4x2bed-rumuokoro": {
+  "hash": "2e0eeffe35565281c9f499b18c9c61c7a0700eb3e3cafd9151e3431aea8e3b4e",
+  "model": "google/gemini-3.8-flash",
+  "result": {
+   "is_building_plan": true,
+   "title": "Block of Four 2-Bedroom Flats",
+   "building_type": "block_of_flats",
+   "floors": 2,
+   "bedrooms": 8,
+   "floor_area_m2": 440.64,
+   "summary": "Take-off for a two-storey block of four 2-bedroom flats in Port Harcourt, covering substructure, superstructure, finishes, and basic services.",
+   "items": [
+    {
+     "code": "LATERITE",
+     "description": "Laterite filling",
+     "quantity": 375,
+     "unit": "tonne",
+     "confidence": "high",
+     "basis": "Footprint 220m2 at 900mm depth with 5% waste."
+    },
+    {
+     "code": "DPM-ROLL",
+     "description": "Damp proof membrane, 1000 gauge roll",
+     "quantity": 5,
+     "unit": "roll",
+     "confidence": "high",
+     "basis": "Oversite slab area 220.3m2 with lap allowance."
+    },
+    {
+     "code": "BLOCK-9",
+     "description": "Sandcrete block, 9 inch (225mm) hollow",
+     "quantity": 4500,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Foundation walling 6 courses, external walls, and party walls."
+    },
+    {
+     "code": "BLOCK-6",
+     "description": "Sandcrete block, 6 inch (150mm) hollow",
+     "quantity": 3200,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Internal partition walls across ground and first floors."
+    },
+    {
+     "code": "CEM-50",
+     "description": "Portland cement, 50kg bag",
+     "quantity": 1450,
+     "unit": "bag",
+     "confidence": "medium",
+     "basis": "Concrete, blockfilling, mortar bedding, and rendering/screeding."
+    },
+    {
+     "code": "SAND-SHARP",
+     "description": "Sharp sand",
+     "quantity": 140,
+     "unit": "tonne",
+     "confidence": "medium",
+     "basis": "Concrete mixes 1:2:4 and 1:3:6 plus screeding."
+    },
+    {
+     "code": "SAND-PLASTER",
+     "description": "Plaster (soft) sand",
+     "quantity": 95,
+     "unit": "tonne",
+     "confidence": "medium",
+     "basis": "Internal and external rendering mortar."
+    },
+    {
+     "code": "GRANITE-34",
+     "description": "Granite chippings, 3/4 inch",
+     "quantity": 190,
+     "unit": "tonne",
+     "confidence": "medium",
+     "basis": "Strip footing, oversite slab, columns, beams, suspended slab."
+    },
+    {
+     "code": "ROD-16",
+     "description": "Iron rod, 16mm x 12m length",
+     "quantity": 260,
+     "unit": "length",
+     "confidence": "high",
+     "basis": "56 columns (4 no.) and ground/first floor beams."
+    },
+    {
+     "code": "ROD-12",
+     "description": "Iron rod, 12mm x 12m length",
+     "quantity": 420,
+     "unit": "length",
+     "confidence": "high",
+     "basis": "Foundation footing reinforcement and first floor suspended slab."
+    },
+    {
+     "code": "ROD-10",
+     "description": "Iron rod, 10mm x 12m length",
+     "quantity": 220,
+     "unit": "length",
+     "confidence": "high",
+     "basis": "Column links and beam stirrups at 150mm spacing."
+    },
+    {
+     "code": "BINDING-WIRE",
+     "description": "Binding wire, 20kg roll",
+     "quantity": 12,
+     "unit": "roll",
+     "confidence": "medium",
+     "basis": "Tying calculated tonnage of steel reinforcement."
+    },
+    {
+     "code": "PLANK-1X12",
+     "description": "Formwork plank 1x12 inch, 12ft",
+     "quantity": 250,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Formwork for columns, beams, staircase, and slab edges."
+    },
+    {
+     "code": "NAILS",
+     "description": "Nails, assorted sizes",
+     "quantity": 120,
+     "unit": "kg",
+     "confidence": "medium",
+     "basis": "Formwork assembly and roof framing."
+    },
+    {
+     "code": "TIMBER-2X4",
+     "description": "Hardwood 2x4 inch, 12ft",
+     "quantity": 320,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Roof purlins, struts, ceiling noggins, and formwork braces."
+    },
+    {
+     "code": "TIMBER-2X6",
+     "description": "Hardwood 2x6 inch, 12ft",
+     "quantity": 140,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Roof rafters, tie beams, and king posts."
+    },
+    {
+     "code": "ROOF-ALU",
+     "description": "Long-span aluminium roofing sheet, 0.55mm",
+     "quantity": 340,
+     "unit": "m2",
+     "confidence": "high",
+     "basis": "Hipped roof area with eaves overhang and slope factor."
+    },
+    {
+     "code": "ROOF-NAILS",
+     "description": "Roofing nails",
+     "quantity": 35,
+     "unit": "kg",
+     "confidence": "medium",
+     "basis": "Fixing aluminium roofing sheets with washers."
+    },
+    {
+     "code": "DOOR-SECURITY",
+     "description": "Steel security door, external",
+     "quantity": 8,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "D1 from schedule, 2 per flat for 4 flats."
+    },
+    {
+     "code": "DOOR-PANEL",
+     "description": "Hardwood panel door with frame, internal",
+     "quantity": 20,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "D2 from schedule, 5 per flat for 4 flats."
+    },
+    {
+     "code": "WINDOW-ALU",
+     "description": "Aluminium sliding window, 1.2 x 1.2m",
+     "quantity": 32,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "W1 from schedule, 8 per flat for 4 flats."
+    },
+    {
+     "code": "OTHER",
+     "description": "Louvre window 0.6 x 0.6m (W2)",
+     "quantity": 8,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "W2 from schedule for bathrooms."
+    },
+    {
+     "code": "TILE-FLOOR",
+     "description": "Porcelain floor tiles, 60 x 60cm",
+     "quantity": 460,
+     "unit": "m2",
+     "confidence": "high",
+     "basis": "Both floor levels total floor area plus waste."
+    },
+    {
+     "code": "TILE-WALL",
+     "description": "Ceramic wall tiles, 30 x 60cm",
+     "quantity": 210,
+     "unit": "m2",
+     "confidence": "medium",
+     "basis": "Wall tiling to 8 bathrooms and 4 kitchens."
+    },
+    {
+     "code": "TILE-ADHESIVE",
+     "description": "Tile adhesive, 20kg bag",
+     "quantity": 168,
+     "unit": "bag",
+     "confidence": "medium",
+     "basis": "Coverage rate of 4m2 per 20kg bag."
+    },
+    {
+     "code": "CEILING-PVC",
+     "description": "PVC ceiling panels",
+     "quantity": 440,
+     "unit": "m2",
+     "confidence": "high",
+     "basis": "Ceiling coverage for ground and first floor flats."
+    },
+    {
+     "code": "PAINT-EMULSION",
+     "description": "Emulsion paint, 20L bucket",
+     "quantity": 45,
+     "unit": "bucket",
+     "confidence": "medium",
+     "basis": "Internal wall and ceiling surfaces 2 coats."
+    },
+    {
+     "code": "PAINT-TEXCOTE",
+     "description": "Textured exterior paint, 20L bucket",
+     "quantity": 22,
+     "unit": "bucket",
+     "confidence": "medium",
+     "basis": "External wall surfaces perimeter 2 coats."
+    },
+    {
+     "code": "PAINT-GLOSS",
+     "description": "Gloss paint, 4L tin",
+     "quantity": 12,
+     "unit": "tin",
+     "confidence": "medium",
+     "basis": "Hardwood panel doors, frames, and trims."
+    },
+    {
+     "code": "WC-SET",
+     "description": "Water closet (WC) set, complete",
+     "quantity": 8,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "2 WC per flat for 4 flats."
+    },
+    {
+     "code": "BASIN",
+     "description": "Wash hand basin with pedestal",
+     "quantity": 8,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "2 basins per flat for 4 flats."
+    },
+    {
+     "code": "SHOWER",
+     "description": "Shower mixer set",
+     "quantity": 8,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "2 showers per flat for 4 flats."
+    },
+    {
+     "code": "SINK",
+     "description": "Kitchen sink, stainless steel",
+     "quantity": 4,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "1 kitchen sink per flat for 4 flats."
+    },
+    {
+     "code": "TANK-2000",
+     "description": "Plastic water tank, 2000 litres",
+     "quantity": 4,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Shared 4 no. specified in notes."
+    },
+    {
+     "code": "PIPE-PVC-4",
+     "description": "PVC soil pipe, 4 inch x 5.8m",
+     "quantity": 40,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Soil stacks, vents, and drainage runs."
+    },
+    {
+     "code": "PIPE-PPR-20",
+     "description": "PPR water pipe, 20mm x 4m",
+     "quantity": 50,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Internal cold and hot water reticulation."
+    },
+    {
+     "code": "CABLE-1.5",
+     "description": "Single core cable 1.5mm, 100m roll",
+     "quantity": 12,
+     "unit": "roll",
+     "confidence": "medium",
+     "basis": "64 lighting points across 4 flats."
+    },
+    {
+     "code": "CABLE-2.5",
+     "description": "Single core cable 2.5mm, 100m roll",
+     "quantity": 16,
+     "unit": "roll",
+     "confidence": "medium",
+     "basis": "56 double sockets across 4 flats."
+    },
+    {
+     "code": "CONDUIT-20",
+     "description": "PVC conduit pipe, 20mm x 3m",
+     "quantity": 180,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Concealed electrical installation pathways."
+    },
+    {
+     "code": "SOCKET-13A",
+     "description": "13A double switched socket",
+     "quantity": 56,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "14 double sockets per flat for 4 flats."
+    },
+    {
+     "code": "LIGHT-LED",
+     "description": "LED ceiling light fitting",
+     "quantity": 64,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "16 light points per flat for 4 flats."
+    },
+    {
+     "code": "SWITCH",
+     "description": "1-gang light switch",
+     "quantity": 24,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Estimated 6 switch points per flat."
+    },
+    {
+     "code": "DB-BOARD",
+     "description": "Distribution board, 8-way",
+     "quantity": 4,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "1 distribution board per flat for 4 flats."
+    }
+   ],
+   "assumptions": [
+    "Ground floor and first floor layouts are identical as stated on drawing KS-04/A-101.",
+    "Site condition is waterlogged requiring 900mm laterite filling as noted.",
+    "Strip foundation depth is 1.2m with 6 courses of 9 inch sandcrete blocks filled with concrete below DPC.",
+    "Reinforced concrete mix 1:2:4 used for footings, slabs, beams, columns, and staircase.",
+    "Aluminium hipped roof measured with standard pitch and 900mm eaves overhang."
+   ]
+  }
+ },
+ "shops-6-ogui-enugu": {
+  "hash": "5709e4dabfade0f933cf229480afd6210d8d00359932e2a56b16d750ae63ab0c",
+  "model": "google/gemini-3.8-flash",
+  "result": {
+   "is_building_plan": true,
+   "title": "Row of Six Lock-up Shops at Plot 45, Ogui Road, Enugu",
+   "building_type": "commercial",
+   "floors": 1,
+   "bedrooms": 0,
+   "floor_area_m2": 144,
+   "summary": "Bill of quantities material take-off for a row of six lock-up shops with two rear/end water closets and a front covered walkway, based on Nigerian standard measurement practice.",
+   "items": [
+    {
+     "code": "LATERITE",
+     "description": "Laterite filling",
+     "quantity": 78,
+     "unit": "tonne",
+     "confidence": "high",
+     "basis": "300mm filling over 144m2 ground floor slab area plus 5% compaction waste"
+    },
+    {
+     "code": "DPM-ROLL",
+     "description": "Damp proof membrane, 1000 gauge roll",
+     "quantity": 4,
+     "unit": "roll",
+     "confidence": "high",
+     "basis": "144m2 slab footprint covered with 1000-gauge polythene membrane including laps"
+    },
+    {
+     "code": "CEM-50",
+     "description": "Portland cement, 50kg bag",
+     "quantity": 560,
+     "unit": "bag",
+     "confidence": "high",
+     "basis": "Foundation footing, block infill, slab, lintels, columns, screed and mortar"
+    },
+    {
+     "code": "SAND-SHARP",
+     "description": "Sharp sand",
+     "quantity": 68,
+     "unit": "tonne",
+     "confidence": "high",
+     "basis": "Concrete for foundations, oversite slab, columns, lintels, and floor screed"
+    },
+    {
+     "code": "GRANITE-34",
+     "description": "Granite chippings, 3/4 inch",
+     "quantity": 72,
+     "unit": "tonne",
+     "confidence": "high",
+     "basis": "Aggregates for 1:3:6 footing concrete and 1:2:4 reinforced structural elements"
+    },
+    {
+     "code": "SAND-PLASTER",
+     "description": "Plaster (soft) sand",
+     "quantity": 38,
+     "unit": "tonne",
+     "confidence": "high",
+     "basis": "Mortar for block setting and internal/external wall rendering"
+    },
+    {
+     "code": "BLOCK-9",
+     "description": "Sandcrete block, 9 inch (225mm) hollow",
+     "quantity": 2950,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "4 foundation courses and 3.6m high superstructure walling less openings"
+    },
+    {
+     "code": "ROD-12",
+     "description": "Iron rod, 12mm x 12m length",
+     "quantity": 75,
+     "unit": "length",
+     "confidence": "high",
+     "basis": "Main bars for 14 columns, 7 walkway posts, and continuous lintel beam"
+    },
+    {
+     "code": "ROD-10",
+     "description": "Iron rod, 10mm x 12m length",
+     "quantity": 45,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Stirrups/links at 200mm c/c for all columns, posts, and lintel beams"
+    },
+    {
+     "code": "BINDING-WIRE",
+     "description": "Binding wire, 20kg roll",
+     "quantity": 2,
+     "unit": "roll",
+     "confidence": "high",
+     "basis": "Tying reinforcement bars for substructure and superstructure concrete elements"
+    },
+    {
+     "code": "PLANK-1X12",
+     "description": "Formwork plank 1x12 inch, 12ft",
+     "quantity": 90,
+     "unit": "piece",
+     "confidence": "medium",
+     "basis": "Formwork shuttering for columns, walkway posts, lintels, and slab edges"
+    },
+    {
+     "code": "NAILS",
+     "description": "Nails, assorted sizes",
+     "quantity": 45,
+     "unit": "kg",
+     "confidence": "medium",
+     "basis": "Carpentry works for formwork fabrication and roof timber framing"
+    },
+    {
+     "code": "TIMBER-2X6",
+     "description": "Hardwood 2x6 inch, 12ft",
+     "quantity": 85,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Hardwood rafters at 900mm centres spanning across shops and walkway"
+    },
+    {
+     "code": "TIMBER-2X4",
+     "description": "Hardwood 2x4 inch, 12ft",
+     "quantity": 110,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Roof purlins, wall plates, and fascia framing supports"
+    },
+    {
+     "code": "ROOF-ALU",
+     "description": "Long-span aluminium roofing sheet, 0.55mm",
+     "quantity": 195,
+     "unit": "m2",
+     "confidence": "high",
+     "basis": "Mono-pitch roof covering 24.0m x 7.2m including overhangs and walkway"
+    },
+    {
+     "code": "ROOF-NAILS",
+     "description": "Roofing nails",
+     "quantity": 20,
+     "unit": "kg",
+     "confidence": "high",
+     "basis": "Fasteners with neoprene washers for long-span aluminium roof sheeting"
+    },
+    {
+     "code": "OTHER",
+     "description": "Galvanised steel roller shutter 3.0 x 3.0m",
+     "quantity": 6,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "6 shop front entrance roller shutter doors specified in schedule"
+    },
+    {
+     "code": "DOOR-PANEL",
+     "description": "Hardwood panel door with frame, internal",
+     "quantity": 2,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Door D2 (0.8 x 2.1m) to WC 1 and WC 2"
+    },
+    {
+     "code": "OTHER",
+     "description": "Louvre window 0.6 x 0.6m",
+     "quantity": 2,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Window W2 to WC 1 and WC 2 as specified"
+    },
+    {
+     "code": "OTHER",
+     "description": "Aluminium fanlight window 3.0 x 0.4m",
+     "quantity": 6,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Overhead fanlight windows above shop roller shutters"
+    },
+    {
+     "code": "TILE-FLOOR",
+     "description": "Porcelain floor tiles, 60 x 60cm",
+     "quantity": 14,
+     "unit": "m2",
+     "confidence": "high",
+     "basis": "Floor finish for WC 1 and WC 2 (11.5m2) plus 10% waste"
+    },
+    {
+     "code": "TILE-WALL",
+     "description": "Ceramic wall tiles, 30 x 60cm",
+     "quantity": 38,
+     "unit": "m2",
+     "confidence": "high",
+     "basis": "Dado wall tiling to 1.8m height in two WCs"
+    },
+    {
+     "code": "TILE-ADHESIVE",
+     "description": "Tile adhesive, 20kg bag",
+     "quantity": 12,
+     "unit": "bag",
+     "confidence": "high",
+     "basis": "Fixing floor and wall ceramic tiles in both WC compartments"
+    },
+    {
+     "code": "PAINT-EMULSION",
+     "description": "Emulsion paint, 20L bucket",
+     "quantity": 14,
+     "unit": "bucket",
+     "confidence": "high",
+     "basis": "Two coats internal wall emulsion paint across shops and toilets"
+    },
+    {
+     "code": "PAINT-TEXCOTE",
+     "description": "Textured exterior paint, 20L bucket",
+     "quantity": 8,
+     "unit": "bucket",
+     "confidence": "high",
+     "basis": "Two coats external textured coating on rear, side, and front walling"
+    },
+    {
+     "code": "WC-SET",
+     "description": "Water closet (WC) set, complete",
+     "quantity": 2,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Complete WC suites for WC 1 and WC 2"
+    },
+    {
+     "code": "BASIN",
+     "description": "Wash hand basin with pedestal",
+     "quantity": 2,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "Wash hand basins with fittings for both WCs"
+    },
+    {
+     "code": "TANK-2000",
+     "description": "Plastic water tank, 2000 litres",
+     "quantity": 1,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "1 no. 2000L overhead water storage tank as specified"
+    },
+    {
+     "code": "PIPE-PVC-4",
+     "description": "PVC soil pipe, 4 inch x 5.8m",
+     "quantity": 6,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Soil waste discharge from 2 WCs to external septic system"
+    },
+    {
+     "code": "PIPE-PPR-20",
+     "description": "PPR water pipe, 20mm x 4m",
+     "quantity": 12,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Cold water distribution from 2000L tank to 2 WCs and basins"
+    },
+    {
+     "code": "LIGHT-LED",
+     "description": "LED ceiling light fitting",
+     "quantity": 16,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "2 per shop (12 no.), 1 per WC (2 no.), 2 along walkway"
+    },
+    {
+     "code": "SOCKET-13A",
+     "description": "13A double switched socket",
+     "quantity": 18,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "3 double sockets per shop across 6 lock-up shops"
+    },
+    {
+     "code": "SWITCH",
+     "description": "1-gang light switch",
+     "quantity": 9,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "1 switch per shop (6 no.), 1 per WC (2 no.), 1 for walkway"
+    },
+    {
+     "code": "CABLE-1.5",
+     "description": "Single core cable 1.5mm, 100m roll",
+     "quantity": 3,
+     "unit": "roll",
+     "confidence": "medium",
+     "basis": "Lighting circuits for 6 shops, 2 toilets, and external walkway"
+    },
+    {
+     "code": "CABLE-2.5",
+     "description": "Single core cable 2.5mm, 100m roll",
+     "quantity": 5,
+     "unit": "roll",
+     "confidence": "medium",
+     "basis": "Power ring/radial circuits for 18 double socket outlets"
+    },
+    {
+     "code": "CONDUIT-20",
+     "description": "PVC conduit pipe, 20mm x 3m",
+     "quantity": 60,
+     "unit": "length",
+     "confidence": "medium",
+     "basis": "Concealed electrical conduit runs in block walls and surface drops"
+    },
+    {
+     "code": "DB-BOARD",
+     "description": "Distribution board, 8-way",
+     "quantity": 1,
+     "unit": "piece",
+     "confidence": "high",
+     "basis": "1 no. main distribution board serving the shop block"
+    }
+   ],
+   "assumptions": [
+    "Ground condition is firm dry terrain in Enugu requiring standard 900mm foundation excavation depth.",
+    "Shop floors receive a 1:3 cement-sand screed finish directly on oversite concrete as specified.",
+    "No ceiling is installed in the shops per note 7; rafters and aluminium roof remain exposed.",
+    "Walkway slab is 100mm thick concrete with a 1:3 cement screed finish.",
+    "Prepaid meters and specialized connection hardware are excluded as contractor/utility items."
+   ]
+  }
+ }
+}
